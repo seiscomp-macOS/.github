@@ -1,13 +1,15 @@
 # SeisComP for macOS
 
 Welcome to the macOS port of SeisComP, a seismological software for data acquisition, processing, distribution and interactive analysis.
+The seiscomp-macOS fork is synced/updated regularly once a week or month.
+
 Please note that this is a forked repository of SeisComP developed by the GEOFON Program at Helmholtz Centre Potsdam GFZ German Research Centre for Geosciences and gempa GmbH,
 so no support is provided from GFZ or gempa GmbH.
 
-Check official site:
+Check SeisComP official site:
 https://www.seiscomp.de
 
-Original Github repository:
+Original SeisComP Github repository:
 https://github.com/seiscomp/
 
 ## SeisComP for macOS compilation instructions
