@@ -4,11 +4,15 @@ Welcome to the macOS port of SeisComP, a seismological software for data acquisi
 Please note that this is a forked repository of SeisComP developed by the GEOFON Program at Helmholtz Centre Potsdam GFZ German Research Centre for Geosciences and gempa GmbH,
 so no support is provided from GFZ or gempa GmbH.
 
-Check official site:
+Check official SeisComP site:
 https://www.seiscomp.de
 
-Original Github repository:
+Original SeisComP Github repository:
 https://github.com/seiscomp/
+
+Original seiscomp-macOS installation instruction & updates
+https://gilles.ecgs.lu/seiscomp-for-mac-compilation-instructions/
+
 
 ## SeisComP for macOS compilation instructions
 
@@ -82,33 +86,28 @@ is a recommended way.
 
 ## Build
 
-### Linux Prerequisites (not required for macOS compilation)
+### General Prerequisites (not required for macOS compilation)
 
-The following packages should be installed to compile SeisComP:
+The following packages should be installed to compile SeisComP on macOS:
 
-- g++
+- clang compiler 
 - git
-- cmake + cmake-gui
-- libboost
-- libxml2-dev
+- cmake
+- Boost lib
+- xml2
 - flex
-- libfl-dev
-- libssl-dev
+- openssl
 - crypto-dev
-- python-dev (optional)
-- python-numpy (optional)
-- libqt4-dev (optional)
-- qtbase5-dev (optional)
-- libmysqlclient-dev (optional)
-- libpq-dev (optional)
-- libsqlite3-dev (optional)
-- ncurses-dev (optional)
+- python3
+- python3-numpy
+- Qt5
+- MySQL
 
 The Python development libraries are required if Python wrappers should be
 compiled which is the default configuration. The development files must
 match the used Python interpreter of the system. If the system uses Python3
 then Python3 development files must be present in exactly the same version
-as the used Python3 interpreter. The same holds for Python2.
+as the used Python3 interpreter.
 
 Python-numpy is required if Numpy support is enable which is also
 the default configuration.
