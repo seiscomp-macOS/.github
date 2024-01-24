@@ -20,4 +20,5 @@ for Geosciences and gempa GmbH.
 
 ## SeisComP for macOS compilation instructions
 
-Please follow the compilation instructions of SeisComP for macOS from https://github.com/seiscomp-macOS/seiscomp
+Please follow the compilation instructions of SeisComP for macOS from
+https://github.com/seiscomp-macOS/seiscomp
