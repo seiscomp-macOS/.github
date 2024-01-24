@@ -11,9 +11,6 @@ https://www.seiscomp.de
 Original SeisComP Github repository:
 https://github.com/seiscomp/
 
-Original seiscomp-macOS installation instruction & updates
-https://gilles.ecgs.lu/seiscomp-for-mac-compilation-instructions/
-
 ## About
 
 SeisComP is a seismological software for data acquisition, processing,
